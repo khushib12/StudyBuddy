@@ -1,0 +1,99 @@
+.joined {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  justify-content: center;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.joined__list {
+  display: flex;
+  flex-direction: column;
+  height: 18.375rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 18.75rem;
+
+  border: 0.1rem solid rgb(87, 83, 83);
+  box-shadow: 4px 4px 4px rgb(75 71 71);
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}
+.joined__imgWrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #59b4bb;
+}
+.joined__image {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210907/pngtree-back-to-school-orange-background-image_813986.jpg);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.joined__container {
+  position: relative;
+}
+.joined__content {
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  height: 4.5rem;
+  padding: 1rem 1rem 0.75rem;
+  position: relative;
+}
+.joined__title {
+  color: black;
+  font-family: "Roboto";
+  text-decoration: none;
+  text-align: center;
+}
+.joined__title h2 {
+  font-weight: 400;
+}
+.joined__title h2:hover {
+  text-decoration: underline;
+}
+.joined__owner {
+  margin-top: -2%;
+  color: black;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  text-align: center;
+}
+.joined__avatar {
+  float: right;
+  height: 4.6875rem !important;
+  position: relative !important;
+  margin-top: -3.09375rem !important;
+  width: 4.6875rem !important;
+  text-align: left;
+}
+.joined__bottom {
+  margin-top: 40%;
+  display: flex;
+  color: #5f6368;
+  justify-content: flex-end;
+  border-top: 0.2px solid rgb(87, 83, 83);
+  padding: 10px;
+}
+.joined__bottom > * {
+  margin-right: 20px;
+}
