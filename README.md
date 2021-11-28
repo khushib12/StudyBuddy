@@ -45,6 +45,7 @@ This is an E-classroom web app where you can login,create and join class of your
 - Join Classes using class code and owner email
 - Make Announcements /Give assignments
 - Upload Images
+- Delete classes no longer in use
 
 ## Technologies
 
@@ -54,4 +55,4 @@ This is an E-classroom web app where you can login,create and join class of your
 
 ## Hosting
 
-Hosted on Netlify : https://study-buddy123.netlify.app/
+Hosted on Netlify : https://studybuddykhushi.netlify.app/
