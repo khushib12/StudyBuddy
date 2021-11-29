@@ -45,7 +45,7 @@ This is an E-classroom web app where you can login,create and join class of your
 - Join Classes using class code and owner email
 - Make Announcements /Give assignments
 - Upload Images
-- Delete classes no longer in use
+- Delete/Unenroll classes no longer in use
 
 ## Technologies
 
